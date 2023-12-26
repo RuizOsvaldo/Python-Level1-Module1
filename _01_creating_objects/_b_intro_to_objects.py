@@ -30,7 +30,12 @@ class Car:
 #       3) return the Car Object from the test_drive() function
 def test_drive():
 
-    return None
+    ferrari = Car()
+
+    ferrari.add_gasoline()
+    ferrari.drive(50)
+
+    return ferrari
 
 # ================== DO NOT MODIFY THE CODE BELOW ============================
 
